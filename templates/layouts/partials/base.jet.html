@@ -50,7 +50,7 @@
     <div class="content container center">
       {{ yield infos()}}
       {{ yield errors()}}
-      {{ if !isset(Infos["system"])}}<div class="centered">{{ yield ad_wide(Type=AdType) }}</div>{{end}}
+      <!-- {{ if !isset(Infos["system"])}}<div class="centered">{{ yield ad_wide(Type=AdType) }}</div>{{end}} -->
       {{ block content_body_base() }}{{end}}
     </div>
     {{ block mascot() }}
@@ -86,7 +86,7 @@
     </div>
     {{end}}
     {{ if !EUCookieLaw }}<div id="cookie-warning"><span id="cookie-warning-close" class="close">×</span>{{ T("cookie_warning")|raw }}</div>{{ end }}
-    <div class="centered">{{ yield ad_wide(Type=AdType) }}</div>
+    <!-- <div class="centered">{{ yield ad_wide(Type=AdType) }}</div> -->
     <footer id="footer">
       <div class="container footer center">
         <div class="footer-opt">
