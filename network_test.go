@@ -9,7 +9,7 @@ import (
 	"net/http/httptest"
 	"sync"
 
-	"github.com/NyaaPantsu/nyaa/config"
+	"github.com/HoloPirates/mogupantsu/config"
 )
 
 type MyHandler struct {

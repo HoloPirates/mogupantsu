@@ -3,7 +3,7 @@ package timeHelper
 import (
 	"time"
 
-	"github.com/NyaaPantsu/nyaa/utils/log"
+	"github.com/HoloPirates/mogupantsu/utils/log"
 )
 
 // FewDaysLater : Give time now + some days

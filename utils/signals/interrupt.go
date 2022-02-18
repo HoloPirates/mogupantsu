@@ -3,7 +3,7 @@ package signals
 import (
 	"sync"
 
-	"github.com/NyaaPantsu/nyaa/utils/log"
+	"github.com/HoloPirates/mogupantsu/utils/log"
 )
 
 // registered interrupt callbacks.

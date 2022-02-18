@@ -7,11 +7,11 @@ import (
 
 	"html/template"
 
-	"github.com/NyaaPantsu/nyaa/config"
-	"github.com/NyaaPantsu/nyaa/models"
-	"github.com/NyaaPantsu/nyaa/models/activities"
-	"github.com/NyaaPantsu/nyaa/models/notifications"
-	"github.com/NyaaPantsu/nyaa/utils/publicSettings"
+	"github.com/HoloPirates/mogupantsu/config"
+	"github.com/HoloPirates/mogupantsu/models"
+	"github.com/HoloPirates/mogupantsu/models/activities"
+	"github.com/HoloPirates/mogupantsu/models/notifications"
+	"github.com/HoloPirates/mogupantsu/utils/publicSettings"
 )
 
 // ExistOrDelete : Check if a torrent exist with the same hash and if it can be replaced, it is replaced

@@ -4,9 +4,9 @@ import (
 	"errors"
 	"time"
 
-	"github.com/NyaaPantsu/nyaa/models"
-	"github.com/NyaaPantsu/nyaa/utils/cache"
-	"github.com/NyaaPantsu/nyaa/utils/validator/announcement"
+	"github.com/HoloPirates/mogupantsu/models"
+	"github.com/HoloPirates/mogupantsu/utils/cache"
+	"github.com/HoloPirates/mogupantsu/utils/validator/announcement"
 )
 
 const identifierAnnouncement = "system.announcement"

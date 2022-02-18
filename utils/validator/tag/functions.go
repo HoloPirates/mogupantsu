@@ -1,7 +1,7 @@
 package tagsValidator
 
 import (
-	"github.com/NyaaPantsu/nyaa/config"
+	"github.com/HoloPirates/mogupantsu/config"
 	"github.com/gin-gonic/gin"
 )
 

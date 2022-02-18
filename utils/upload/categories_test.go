@@ -3,8 +3,8 @@ package upload
 import (
 	"testing"
 
-	"github.com/NyaaPantsu/nyaa/config"
-	"github.com/NyaaPantsu/nyaa/models"
+	"github.com/HoloPirates/mogupantsu/config"
+	"github.com/HoloPirates/mogupantsu/models"
 	"github.com/stretchr/testify/assert"
 )
 

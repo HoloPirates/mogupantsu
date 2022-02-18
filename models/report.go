@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/NyaaPantsu/nyaa/config"
+	"github.com/HoloPirates/mogupantsu/config"
 )
 
 // TorrentReport model

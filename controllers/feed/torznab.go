@@ -6,10 +6,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/NyaaPantsu/nyaa/config"
-	"github.com/NyaaPantsu/nyaa/utils/categories"
-	"github.com/NyaaPantsu/nyaa/utils/feeds"
-	"github.com/NyaaPantsu/nyaa/utils/publicSettings"
+	"github.com/HoloPirates/mogupantsu/config"
+	"github.com/HoloPirates/mogupantsu/utils/categories"
+	"github.com/HoloPirates/mogupantsu/utils/feeds"
+	"github.com/HoloPirates/mogupantsu/utils/publicSettings"
 	"github.com/gin-gonic/gin"
 	"github.com/gorilla/feeds"
 )

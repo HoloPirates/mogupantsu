@@ -6,10 +6,10 @@ import (
 
 	"net/http"
 
-	"github.com/NyaaPantsu/nyaa/models"
-	"github.com/NyaaPantsu/nyaa/models/oauth_client"
-	"github.com/NyaaPantsu/nyaa/utils/format"
-	"github.com/NyaaPantsu/nyaa/utils/oauth2/client"
+	"github.com/HoloPirates/mogupantsu/models"
+	"github.com/HoloPirates/mogupantsu/models/oauth_client"
+	"github.com/HoloPirates/mogupantsu/utils/format"
+	"github.com/HoloPirates/mogupantsu/utils/oauth2/client"
 	"github.com/ory/fosite"
 	"github.com/pborman/uuid"
 	"github.com/pkg/errors"

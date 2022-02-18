@@ -1,8 +1,8 @@
 package templates
 
 import (
-	"github.com/NyaaPantsu/nyaa/utils/publicSettings"
-	"github.com/NyaaPantsu/nyaa/utils/search"
+	"github.com/HoloPirates/mogupantsu/utils/publicSettings"
+	"github.com/HoloPirates/mogupantsu/utils/search"
 	"github.com/gin-gonic/gin"
 )
 

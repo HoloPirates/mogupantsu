@@ -1,8 +1,8 @@
 package models
 
 import (
-	"github.com/NyaaPantsu/nyaa/config"
-	"github.com/NyaaPantsu/nyaa/utils/log"
+	"github.com/HoloPirates/mogupantsu/config"
+	"github.com/HoloPirates/mogupantsu/utils/log"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/postgres" // Need for postgres support
 	_ "github.com/jinzhu/gorm/dialects/sqlite"   // Need for sqlite

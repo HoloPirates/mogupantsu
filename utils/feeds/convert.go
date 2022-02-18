@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/NyaaPantsu/nyaa/utils/categories"
+	"github.com/HoloPirates/mogupantsu/utils/categories"
 )
 
 // ConvertToCat : Convert a torznab cat to our cat

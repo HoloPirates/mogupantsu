@@ -1,8 +1,8 @@
 package tags
 
 import (
-	"github.com/NyaaPantsu/nyaa/models"
-	"github.com/NyaaPantsu/nyaa/utils/cache"
+	"github.com/HoloPirates/mogupantsu/models"
+	"github.com/HoloPirates/mogupantsu/utils/cache"
 	"github.com/pkg/errors"
 )
 

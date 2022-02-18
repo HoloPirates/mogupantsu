@@ -3,7 +3,7 @@ package search
 import (
 	"strconv"
 
-	"github.com/NyaaPantsu/nyaa/config"
+	"github.com/HoloPirates/mogupantsu/config"
 )
 
 type maxType uint32

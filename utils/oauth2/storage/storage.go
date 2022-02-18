@@ -6,10 +6,10 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/NyaaPantsu/nyaa/models"
-	"github.com/NyaaPantsu/nyaa/models/oauth_server"
-	"github.com/NyaaPantsu/nyaa/models/users"
-	"github.com/NyaaPantsu/nyaa/utils/log"
+	"github.com/HoloPirates/mogupantsu/models"
+	"github.com/HoloPirates/mogupantsu/models/oauth_server"
+	"github.com/HoloPirates/mogupantsu/models/users"
+	"github.com/HoloPirates/mogupantsu/utils/log"
 	"github.com/ory/fosite"
 	"github.com/pkg/errors"
 )

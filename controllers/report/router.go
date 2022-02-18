@@ -1,6 +1,6 @@
 package reportController
 
-import "github.com/NyaaPantsu/nyaa/controllers/router"
+import "github.com/HoloPirates/mogupantsu/controllers/router"
 
 func init() {
 	reportRoutes := router.Get().Group("/report")

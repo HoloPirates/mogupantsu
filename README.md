@@ -1,18 +1,18 @@
 ![nyanpasu~](https://my.mixtape.moe/aglaxe.png)
 
-# Nyaa replacement [![Build Status](https://travis-ci.org/NyaaPantsu/nyaa.svg?branch=master)](https://travis-ci.org/NyaaPantsu/nyaa) [![Go Report Card](https://goreportcard.com/badge/github.com/NyaaPantsu/nyaa)](https://goreportcard.com/report/github.com/NyaaPantsu/nyaa) [![GoDoc](https://godoc.org/github.com/NyaaPantsu/nyaa?status.svg)](https://godoc.org/github.com/NyaaPantsu/nyaa)[![Coverage Status](https://coveralls.io/repos/github/NyaaPantsu/nyaa/badge.svg?branch=dev)](https://coveralls.io/github/NyaaPantsu/nyaa?branch=dev)
+# Nyaa replacement [![Build Status](https://travis-ci.org/NyaaPantsu/nyaa.svg?branch=master)](https://travis-ci.org/NyaaPantsu/nyaa) [![Go Report Card](https://goreportcard.com/badge/github.com/HoloPirates/mogupantsu)](https://goreportcard.com/report/github.com/HoloPirates/mogupantsu) [![GoDoc](https://godoc.org/github.com/HoloPirates/mogupantsu?status.svg)](https://godoc.org/github.com/HoloPirates/mogupantsu)[![Coverage Status](https://coveralls.io/repos/github/NyaaPantsu/nyaa/badge.svg?branch=dev)](https://coveralls.io/github/NyaaPantsu/nyaa?branch=dev)
 
 ## Motivation
 The aim of this project is to write a fully featured nyaa replacement in golang
 that anyone will be able to deploy locally or remotely.
 
-## [Roadmap](https://github.com/NyaaPantsu/nyaa/projects/2)
-As of August 17th the [trello board](https://trello.com/b/gMJBwoRq/nyaa-pantsu-cat-roadmap) has been moved to [GitHub Projects](https://github.com/NyaaPantsu/nyaa/projects/2)
+## [Roadmap](https://github.com/HoloPirates/mogupantsu/projects/2)
+As of August 17th the [trello board](https://trello.com/b/gMJBwoRq/nyaa-pantsu-cat-roadmap) has been moved to [GitHub Projects](https://github.com/HoloPirates/mogupantsu/projects/2)
 
 The Roadmap will give you an overview of the features and tasks that the project are currently discussing, working on and have completed.
 If you are looking for a feature that is not listed just make a GitHub Issue and it will get added to the trello board.
 
-You can view the public GitHub Projects board [here](https://github.com/NyaaPantsu/nyaa/projects/2) or click on the "Roadmap".
+You can view the public GitHub Projects board [here](https://github.com/HoloPirates/mogupantsu/projects/2) or click on the "Roadmap".
 
 # Requirements
 
@@ -22,7 +22,7 @@ You can view the public GitHub Projects board [here](https://github.com/NyaaPant
 All tested versions of Ubuntu fail to build, use a different OS or docker
 * Install [Golang](https://golang.org/doc/install) (version >=1.8)
 * `go get -u github.com/tools/godep`
-* `go get github.com/NyaaPantsu/nyaa`
+* `go get github.com/HoloPirates/mogupantsu`
 
 On Windows, a specific version of GCC is used to build a specific depedency we use
 The GCC version packaged with [msys2](https://github.com/orlp/dev-on-windows/wiki/Installing-GCC--&-MSYS2) should work
@@ -73,7 +73,7 @@ download [dos2unix](https://sourceforge.net/projects/dos2unix/files/latest/downl
 on the /deploy/init.sh to convert CR+LF to LF.
 
 ```sh
-# Make sure the project is in here $GOPATH/src/github.com/NyaaPantsu/nyaa
+# Make sure the project is in here $GOPATH/src/github.com/HoloPirates/mogupantsu
 $ cd deploy/
 # You may choose another backend by pointing to the
 # appropriate docker-compose file.

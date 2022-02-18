@@ -8,7 +8,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/NyaaPantsu/nyaa/utils/log"
+	"github.com/HoloPirates/mogupantsu/utils/log"
 
 	"github.com/frustra/bbcode"
 	"github.com/microcosm-cc/bluemonday"

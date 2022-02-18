@@ -60,7 +60,7 @@
     <h2 id="api_documentation">{{ T("api_help")}}</h2>
     <a href="/apidoc">{{ T("api_documentation")}}</a>
     <h2 id="feed_information">RSS Feed Information</h2>
-    <a href="https://github.com/NyaaPantsu/nyaa/blob/master/controllers/feed/router.go">Feed Routes</a>
+    <a href="https://github.com/HoloPirates/mogupantsu/blob/master/controllers/feed/router.go">Feed Routes</a>
     <p>Base URL: {{if Sukebei()}}{{GetHostname(Config.WebAddress.Sukebei)}}{{else}}{{GetHostname(Config.WebAddress.Nyaa)}}{{end}}/feed/(Feed Type)/p/(Page Number)
         <b>"/p/(Page Number)" is optional</b></p>
     <p>EX: {{if Sukebei()}}{{GetHostname(Config.WebAddress.Sukebei)}}{{else}}{{GetHostname(Config.WebAddress.Nyaa)}}{{end}}/feed/magnet/p/2?c=1_1&amp;userID=0&amp;limit=100 (Limit max is 300 items per page)</p>
@@ -89,7 +89,7 @@ udp://ipv6.leechers-paradise.org:6969/announce</pre>
     <p>{{ T("answer_how_can_i_help")|raw}}</p>
 
     <h2 id="found_a_bug">{{ T("your_design_sucks_found_a_bug")}}</h2>
-    <p><a href="https://github.com/NyaaPantsu/nyaa/issues">https://github.com/NyaaPantsu/nyaa/issues</a>.</p>
+    <p><a href="https://github.com/HoloPirates/mogupantsu/issues">https://github.com/HoloPirates/mogupantsu/issues</a>.</p>
 
     <h2 id="why_go">{{ T("why_written_in_go")}}</h2>
     <p>{{ T("authors_favorite_language")}}</p>

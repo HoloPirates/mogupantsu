@@ -4,7 +4,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/NyaaPantsu/nyaa/models"
+	"github.com/HoloPirates/mogupantsu/models"
 )
 
 // FindAll : Find all comments based on conditions

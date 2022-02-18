@@ -1,9 +1,9 @@
 package userController
 
 import (
-	"github.com/NyaaPantsu/nyaa/templates"
-	"github.com/NyaaPantsu/nyaa/utils/email"
-	msg "github.com/NyaaPantsu/nyaa/utils/messages"
+	"github.com/HoloPirates/mogupantsu/templates"
+	"github.com/HoloPirates/mogupantsu/utils/email"
+	msg "github.com/HoloPirates/mogupantsu/utils/messages"
 	"github.com/gin-gonic/gin"
 )
 

@@ -3,8 +3,8 @@ package staticController
 import (
 	"net/http"
 
-	"github.com/NyaaPantsu/nyaa/controllers/databasedumps"
-	"github.com/NyaaPantsu/nyaa/controllers/router"
+	"github.com/HoloPirates/mogupantsu/controllers/databasedumps"
+	"github.com/HoloPirates/mogupantsu/controllers/router"
 )
 
 func init() {

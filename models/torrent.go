@@ -17,11 +17,11 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/NyaaPantsu/nyaa/config"
-	"github.com/NyaaPantsu/nyaa/utils/cache"
-	"github.com/NyaaPantsu/nyaa/utils/format"
-	"github.com/NyaaPantsu/nyaa/utils/log"
-	"github.com/NyaaPantsu/nyaa/utils/sanitize"
+	"github.com/HoloPirates/mogupantsu/config"
+	"github.com/HoloPirates/mogupantsu/utils/cache"
+	"github.com/HoloPirates/mogupantsu/utils/format"
+	"github.com/HoloPirates/mogupantsu/utils/log"
+	"github.com/HoloPirates/mogupantsu/utils/sanitize"
 	"github.com/bradfitz/slice"
 	"github.com/fatih/structs"
 )

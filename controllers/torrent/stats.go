@@ -6,9 +6,9 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/NyaaPantsu/nyaa/models/torrents"
-	"github.com/NyaaPantsu/nyaa/models"
-	"github.com/NyaaPantsu/nyaa/config"
+	"github.com/HoloPirates/mogupantsu/models/torrents"
+	"github.com/HoloPirates/mogupantsu/models"
+	"github.com/HoloPirates/mogupantsu/config"
 	"github.com/Stephen304/goscrape"
 	"github.com/gin-gonic/gin"
 )

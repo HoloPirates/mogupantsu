@@ -4,8 +4,8 @@ import (
 	"path"
 	"testing"
 
-	"github.com/NyaaPantsu/nyaa/config"
-	"github.com/NyaaPantsu/nyaa/utils/categories"
+	"github.com/HoloPirates/mogupantsu/config"
+	"github.com/HoloPirates/mogupantsu/utils/categories"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -5,20 +5,20 @@ import (
 	"path"
 	"strconv"
 
-	"github.com/NyaaPantsu/nyaa/config"
-	"github.com/NyaaPantsu/nyaa/models"
-	"github.com/NyaaPantsu/nyaa/utils/filelist"
-	msg "github.com/NyaaPantsu/nyaa/utils/messages"
-	"github.com/NyaaPantsu/nyaa/utils/publicSettings"
-	"github.com/NyaaPantsu/nyaa/utils/search"
+	"github.com/HoloPirates/mogupantsu/config"
+	"github.com/HoloPirates/mogupantsu/models"
+	"github.com/HoloPirates/mogupantsu/utils/filelist"
+	msg "github.com/HoloPirates/mogupantsu/utils/messages"
+	"github.com/HoloPirates/mogupantsu/utils/publicSettings"
+	"github.com/HoloPirates/mogupantsu/utils/search"
 	"github.com/gin-gonic/gin"
 	"github.com/justinas/nosurf"
 
 	"fmt"
 
 	"github.com/CloudyKit/jet"
-	"github.com/NyaaPantsu/nyaa/utils/cookies"
-	"github.com/NyaaPantsu/nyaa/utils/validator/user"
+	"github.com/HoloPirates/mogupantsu/utils/cookies"
+	"github.com/HoloPirates/mogupantsu/utils/validator/user"
 )
 
 // TemplateDir : Variable to the template directory

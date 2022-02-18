@@ -1,6 +1,6 @@
 package oauth
 
-import "github.com/NyaaPantsu/nyaa/controllers/router"
+import "github.com/HoloPirates/mogupantsu/controllers/router"
 
 func init() {
 	oauth2Routes := router.Get().Group("/oauth2")

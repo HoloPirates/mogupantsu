@@ -1,6 +1,6 @@
 package search
 
-import "github.com/NyaaPantsu/nyaa/config"
+import "github.com/HoloPirates/mogupantsu/config"
 
 const (
 	ID SortMode = iota

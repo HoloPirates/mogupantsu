@@ -4,7 +4,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/NyaaPantsu/nyaa/config"
+	"github.com/HoloPirates/mogupantsu/config"
 )
 
 // Notification model

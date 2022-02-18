@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/NyaaPantsu/nyaa/utils/log"
-	"github.com/NyaaPantsu/nyaa/utils/oauth2/client"
+	"github.com/HoloPirates/mogupantsu/utils/log"
+	"github.com/HoloPirates/mogupantsu/utils/oauth2/client"
 	"github.com/ory/fosite"
 	"github.com/pkg/errors"
 )

@@ -1,7 +1,7 @@
 package oauth_server
 
 import (
-	"github.com/NyaaPantsu/nyaa/models"
+	"github.com/HoloPirates/mogupantsu/models"
 	"github.com/ory/fosite"
 	"github.com/pkg/errors"
 )

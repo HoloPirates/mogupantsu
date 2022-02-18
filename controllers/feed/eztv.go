@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/NyaaPantsu/nyaa/config"
-	"github.com/NyaaPantsu/nyaa/utils/feeds"
+	"github.com/HoloPirates/mogupantsu/config"
+	"github.com/HoloPirates/mogupantsu/utils/feeds"
 	"github.com/gin-gonic/gin"
 	"github.com/gorilla/feeds"
 )

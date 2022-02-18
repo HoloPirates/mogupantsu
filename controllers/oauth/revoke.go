@@ -1,7 +1,7 @@
 package oauth
 
 import (
-	"github.com/NyaaPantsu/nyaa/utils/oauth2"
+	"github.com/HoloPirates/mogupantsu/utils/oauth2"
 	"github.com/gin-gonic/gin"
 	"github.com/ory/fosite"
 )

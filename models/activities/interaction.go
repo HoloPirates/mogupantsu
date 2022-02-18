@@ -1,7 +1,7 @@
 package activities
 
 import (
-	"github.com/NyaaPantsu/nyaa/models"
+	"github.com/HoloPirates/mogupantsu/models"
 )
 
 // Log : log an activity from a user to his own id (System user id is 0)

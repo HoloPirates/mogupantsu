@@ -3,25 +3,25 @@ package controllers
 import (
 	"net/http"
 
-	_ "github.com/NyaaPantsu/nyaa/controllers/activities"    // activities controller
-	_ "github.com/NyaaPantsu/nyaa/controllers/api"           // api controller
-	_ "github.com/NyaaPantsu/nyaa/controllers/captcha"       // captcha controller
-	_ "github.com/NyaaPantsu/nyaa/controllers/databasedumps" // databasedumps controller
-	_ "github.com/NyaaPantsu/nyaa/controllers/faq"           // faq controller
-	_ "github.com/NyaaPantsu/nyaa/controllers/feed"          // feed controller
-	_ "github.com/NyaaPantsu/nyaa/controllers/middlewares"   // middlewares
-	_ "github.com/NyaaPantsu/nyaa/controllers/moderator"     // moderator controller
-	_ "github.com/NyaaPantsu/nyaa/controllers/oauth"         // oauth2 controller
-	_ "github.com/NyaaPantsu/nyaa/controllers/pprof"         // pprof controller
-	_ "github.com/NyaaPantsu/nyaa/controllers/report"        // report controller
-	"github.com/NyaaPantsu/nyaa/controllers/router"
-	_ "github.com/NyaaPantsu/nyaa/controllers/search"   // search controller
-	_ "github.com/NyaaPantsu/nyaa/controllers/settings" // settings controller
-	_ "github.com/NyaaPantsu/nyaa/controllers/static"   // static files
-	_ "github.com/NyaaPantsu/nyaa/controllers/themeToggle" // themeToggle controller
-	_ "github.com/NyaaPantsu/nyaa/controllers/torrent"  // torrent controller
-	_ "github.com/NyaaPantsu/nyaa/controllers/upload"   // upload controller
-	_ "github.com/NyaaPantsu/nyaa/controllers/user"     // user controller
+	_ "github.com/HoloPirates/mogupantsu/controllers/activities"    // activities controller
+	_ "github.com/HoloPirates/mogupantsu/controllers/api"           // api controller
+	_ "github.com/HoloPirates/mogupantsu/controllers/captcha"       // captcha controller
+	_ "github.com/HoloPirates/mogupantsu/controllers/databasedumps" // databasedumps controller
+	_ "github.com/HoloPirates/mogupantsu/controllers/faq"           // faq controller
+	_ "github.com/HoloPirates/mogupantsu/controllers/feed"          // feed controller
+	_ "github.com/HoloPirates/mogupantsu/controllers/middlewares"   // middlewares
+	_ "github.com/HoloPirates/mogupantsu/controllers/moderator"     // moderator controller
+	_ "github.com/HoloPirates/mogupantsu/controllers/oauth"         // oauth2 controller
+	_ "github.com/HoloPirates/mogupantsu/controllers/pprof"         // pprof controller
+	_ "github.com/HoloPirates/mogupantsu/controllers/report"        // report controller
+	"github.com/HoloPirates/mogupantsu/controllers/router"
+	_ "github.com/HoloPirates/mogupantsu/controllers/search"   // search controller
+	_ "github.com/HoloPirates/mogupantsu/controllers/settings" // settings controller
+	_ "github.com/HoloPirates/mogupantsu/controllers/static"   // static files
+	_ "github.com/HoloPirates/mogupantsu/controllers/themeToggle" // themeToggle controller
+	_ "github.com/HoloPirates/mogupantsu/controllers/torrent"  // torrent controller
+	_ "github.com/HoloPirates/mogupantsu/controllers/upload"   // upload controller
+	_ "github.com/HoloPirates/mogupantsu/controllers/user"     // user controller
 	"github.com/justinas/nosurf"
 )
 

@@ -8,8 +8,8 @@ import (
 
 	"fmt"
 
-	"github.com/NyaaPantsu/nyaa/config"
-	"github.com/NyaaPantsu/nyaa/utils/publicSettings"
+	"github.com/HoloPirates/mogupantsu/config"
+	"github.com/HoloPirates/mogupantsu/utils/publicSettings"
 )
 
 // run before config/parse.go:init()

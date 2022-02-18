@@ -1,8 +1,8 @@
 package captchaController
 
 import (
-	"github.com/NyaaPantsu/nyaa/controllers/router"
-	"github.com/NyaaPantsu/nyaa/utils/captcha"
+	"github.com/HoloPirates/mogupantsu/controllers/router"
+	"github.com/HoloPirates/mogupantsu/utils/captcha"
 )
 
 func init() {

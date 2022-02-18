@@ -1,6 +1,6 @@
 package uploadController
 
-import "github.com/NyaaPantsu/nyaa/controllers/router"
+import "github.com/HoloPirates/mogupantsu/controllers/router"
 
 func init() {
 	router.Get().Any("/upload", UploadHandler)

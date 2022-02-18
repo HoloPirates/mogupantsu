@@ -1,4 +1,4 @@
-module github.com/NyaaPantsu/nyaa
+module github.com/HoloPirates/mogupantsu
 
 go 1.12
 

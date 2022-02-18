@@ -4,7 +4,7 @@ import (
 	"html/template"
 	"time"
 
-	"github.com/NyaaPantsu/nyaa/config"
+	"github.com/HoloPirates/mogupantsu/config"
 )
 
 // Comment model

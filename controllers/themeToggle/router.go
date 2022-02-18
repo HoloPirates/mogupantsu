@@ -1,6 +1,6 @@
 package themeToggleController
 
-import "github.com/NyaaPantsu/nyaa/controllers/router"
+import "github.com/HoloPirates/mogupantsu/controllers/router"
 
 func init() {
 	router.Get().Any("/dark", toggleThemeHandler)
