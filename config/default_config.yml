@@ -4,7 +4,7 @@
 # Host of server
 host: localhost
 # Version of the app
-version: "1.1.0"
+version: "1.1.0-mogu"
 # port of server
 port: 9999
 # database type
@@ -24,15 +24,15 @@ comment_length: 2000
 # the default config for web addresses
 web_address:
   # Nyaa : Origin of the website
-  nyaa: https://nyaa.pantsu.cat
+  nyaa: https://mogu.holopirates.moe
   # Sukebei : Origin of the sukebei website
-  sukebei: https://sukebei.pantsu.cat
+  sukebei: soon_maybe
   # Status : Origin of the status website
-  status: https://status.pantsu.cat
+  status: soon_maybe
 # the default config for session cookies
 cookies:
   # DomainName : The host domain so the cookies can be shared across subdomains
-  domain_name: pantsu.cat
+  domain_name: holopirates.moe
   # MaxAge : The expiration time of sessions cookies in seconds (default: 7 days)
   max_age: 604800
   # HashKey : 64 byte key used to authenticate cookies using HMAC. Leave blank for a random key after each restart.
@@ -45,7 +45,7 @@ scraper:
   workers: 4
   interval: 3600
   trackers:
-    - {url: "udp://tracker.coppersurfer.tk:6969/", name: coppersurfer.tk}
+    - {url: "udp://tracker.holopirates.moe:1337/announce", name: holopirates.moe}
 # StatScrapingFrequency : On-demand stat scraping JS will only be loaded if the stats have been scraped X hours ago or higher
   stat_scraping_frequency: 48
 # StatScrapingFrequencyUnknown : On-demand stat scraping for unknown torrents JS will only be loaded if the stats have been scraped X hours ago or higher
@@ -133,7 +133,7 @@ torrents:
   trackers:
 # Trackers : Default trackers supported
     default:
-      - udp://tracker.uw0.xyz:6969/announce
+      - udp://tracker.holopirates.moe:1337/announce
       - udp://tracker.coppersurfer.tk:6969
       - udp://tracker.zer0day.to:1337/announce
       - udp://tracker.leechers-paradise.org:6969
