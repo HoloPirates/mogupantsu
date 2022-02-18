@@ -110,16 +110,27 @@ torrents:
 # TorrentStatus : Config of different status id for torrents
   status: [true, true, true, true, true, true]
 # TorrentSukebeiCategories : Config for Sukebei categories
-  sukebei_categories: {"1_":  "art", "1_1": "art_anime", "1_2": "art_doujinshi", "1_3": "art_games", "1_4": "art_manga", "1_5": "art_pictures", "2_": "real_life", "2_1": "real_life_photobooks_and_pictures", "2_2": "real_life_videos"}
+  sukebei_categories: {}
 # TorrentCleanCategories : Config for Site categories
-  clean_categories: {"3_": "anime", "3_12": "anime_amv", "3_5":  "anime_english_translated", "3_13": "anime_non_english_translated", "3_6": "anime_raw", "2_": "audio", "2_3":  "audio_lossless", "2_4":  "audio_lossy", "4_": "literature", "4_7": "literature_english_translated", "4_8": "literature_raw", "4_14": "literature_non_english_translated", "5_": "live_action", "5_9": "live_action_english_translated", "5_10": "live_action_idol_pv", "5_18": "live_action_non_english_translated", "5_11": "live_action_raw", "6_": "pictures", "6_15": "pictures_graphics", "6_16": "pictures_photos", "1_": "software", "1_1": "software_applications", "1_2": "software_games"}
-# EnglishOnlyCategories : Which categories will only accept English torrents
-  english_only_categories: ["3_5", "4_7", "5_9"]
+  clean_categories:
+    {
+      "1_": "unarchived",
+      "1_1": "unarchived_karaoke",
+      "1_2": "unarchived_copyright",
+      "1_3": "unarchived_yab",
+      "2_": "paid",
+      "2_1": "paid_membership",
+      "2_2": "paid_voice_pack",
+      "2_3": "paid_concert",
+      "2_4": "paid_songs",
+    }
+    # EnglishOnlyCategories : Which categories will only accept English torrents
+  english_only_categories: []
 # NonEnglishOnlyCategories : Which categories will only accept non-English torrents
-  non_english_only_categories: ["3_13", "4_14", "5_18"]
+  non_english_only_categories: []
 # AdditionalLanguages : Which languages are available for selection when uploading a torrent, aside from
 # the ones we have translations.
-  additional_languages: ["es-mx"]
+  additional_languages: []
 # TorrentFileStorage : Path to default torrent storage location (eg /var/www/wherever/you/want)
 torrents:
 # GenerationClientPort : Port used by the torrent client created during torrent generation
@@ -176,16 +187,18 @@ torrents:
     default: tags
 # Array of tag types allowed for now
     types:
-      - name: anidbid
-        field: AnidbID
-        defaults:
-          - db
-      - name: vndbid
-        field: VndbID
-      - name: dlsite
-        field: Dlsite
-      - name: vgmdbid
-        field: VgmdbID
+      # - name: anidbid
+      #   field: AnidbID
+      #   defaults:
+      #     - db
+      # - name: vndbid
+      #   field: VndbID
+      # - name: dlsite
+      #   field: Dlsite
+      # - name: vgmdbid
+      #   field: VgmdbID
+      - name: youtubeid
+        field: YoutubeID
       - name: videoquality
         field: VideoQuality
         defaults:
@@ -221,7 +234,7 @@ log:
   error_log_max_age: 30
 email:
 # SendEmail : Enable Email
-  send_email: true
+  send_email: false
 # EmailFrom : email address by default
   from: donotrespond@nyaa.pantsu.cat
 # EmailTestTo : when testing to who send email
