@@ -2024,6 +2024,10 @@
     "translation": "VNdb ID"
   },
   {
+    "id": "tagtype_youtubeid",
+    "translation": "Youtube ID"
+  },
+  {
     "id": "tagtype_videoquality",
     "translation": "Video Quality"
   },
@@ -2200,12 +2204,12 @@
     "translation": "Upload to other websites"
   },
   {
-    "id":"choose_category",
+    "id": "choose_category",
     "translation": "Choose a category (required)"
   },
   {
-    "id":"choose_language",
-    "translation":"Choose a language (required)"
+    "id": "choose_language",
+    "translation": "Choose a language (required)"
   },
   {
     "id": "event",
