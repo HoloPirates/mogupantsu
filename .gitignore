@@ -16,6 +16,7 @@ templates/*.html.go
 tags
 *.retry
 config/config.yml
+Godeps/_workspace
 
 # emacs temp files
 *\#*
