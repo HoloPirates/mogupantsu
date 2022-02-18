@@ -3,9 +3,9 @@
 *.db
 *.sql
 main
-nyaa
-nyaa.exe
-nyaa-master.exe
+mogupantsu
+mogupantsu.exe
+mogupantsu-master.exe
 *.zip
 *.swp
 .idea
@@ -16,6 +16,7 @@ templates/*.html.go
 tags
 *.retry
 config/config.yml
+Godeps/_workspace
 
 # emacs temp files
 *\#*

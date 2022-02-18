@@ -36,7 +36,7 @@ const (
 // User model
 type User struct {
 	ID             uint      `gorm:"column:user_id;primary_key"`
-	Username       string    `gorm:"column:username;unique"`
+	Username       string    `gorm:"column:username"`
 	Password       string    `gorm:"column:password"`
 	Email          string    `gorm:"column:email;unique"`
 	Status         int       `gorm:"column:status"`
@@ -47,7 +47,7 @@ type User struct {
 	Language       string    `gorm:"column:language"`
 	Theme          string    `gorm:"column:theme"`
 	AltColors      string    `gorm:"column:alt_colors"`
-	OldNav      string    `gorm:"column:old_nav"`
+	OldNav         string    `gorm:"column:old_nav"`
 	Mascot         string    `gorm:"column:mascot"`
 	MascotURL      string    `gorm:"column:mascot_url"`
 	AnidexAPIToken string    `gorm:"column:anidex_api_token"`
@@ -170,7 +170,6 @@ func (u *User) ToggleBan() bool {
 	return u.IsBanned()
 }
 
-
 // CurrentOrAdmin check that user has admin permission or user is the current user.
 func (u *User) CurrentOrAdmin(userID uint) bool {
 	if userID == 0 && !u.IsModerator() {
@@ -179,6 +178,7 @@ func (u *User) CurrentOrAdmin(userID uint) bool {
 	log.Debugf("user.ID == userID %d %d %t", u.ID, userID, u.ID == userID)
 	return (u.IsModerator() || u.ID == userID)
 }
+
 // CurrentOrJanitor check that user has janitor permission or user is the current user.
 func (u *User) CurrentOrJanitor(userID uint) bool {
 	if userID == 0 && !u.IsJanitor() {
@@ -217,7 +217,7 @@ func (u *User) CanUpload() bool {
 // GetRole : Get the status/role of a user
 func (u *User) GetRole() string {
 	if u.ID == 0 {
-		return ""	
+		return ""
 	}
 	switch u.Status {
 	case UserStatusBanned:
@@ -242,7 +242,6 @@ func (follower *User) IsFollower(userid uint) bool {
 	ORM.Model(&UserFollows{}).Where("user_id = ? and following = ?", follower.ID, userid).Count(&likingUserCount)
 	return likingUserCount != 0
 }
-
 
 // ToJSON : Conversion of a user model to json
 func (u *User) ToJSON() UserJSON {
@@ -291,7 +290,7 @@ func (u *User) RemoveFollow(follower *User) {
 		ORM.Delete(&userFollows)
 		for i, followr := range u.Likings {
 			if followr.ID == follower.ID {
-				u.Likings[i] = u.Likings[len(u.Likings)-1] 
+				u.Likings[i] = u.Likings[len(u.Likings)-1]
 				// The very last follower will take the place of the one that is getting deleted in the array
 				u.Likings = u.Likings[:len(u.Likings)-1]
 				// We now proceed to delete the very last array element since it got copied to another position
