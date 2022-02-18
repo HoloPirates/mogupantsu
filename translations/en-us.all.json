@@ -404,132 +404,40 @@
     "translation": "Select a Torrent Category"
   },
   {
-    "id": "anime",
-    "translation": "Anime"
+    "id": "unarchived",
+    "translation": "Unarchived"
   },
   {
-    "id": "anime_amv",
-    "translation": "Anime - Anime Music Video"
+    "id": "unarchived_karaoke",
+    "translation": "Unarchived - Karaoke"
   },
   {
-    "id": "anime_english_translated",
-    "translation": "Anime - English-translated"
+    "id": "unarchived_copyright",
+    "translation": "Unarchived - Copyright"
   },
   {
-    "id": "anime_non_english_translated",
-    "translation": "Anime - Non-English-translated"
+    "id": "unarchived_yab",
+    "translation": "Unarchived - Yab"
   },
   {
-    "id": "anime_raw",
-    "translation": "Anime - Raw"
+    "id": "paid",
+    "translation": "Paid"
   },
   {
-    "id": "audio",
-    "translation": "Audio"
+    "id": "paid_membership",
+    "translation": "Paid - Membership"
   },
   {
-    "id": "audio_lossless",
-    "translation": "Audio - Lossless"
+    "id": "paid_voice_pack",
+    "translation": "Paid - Voice Pack"
   },
   {
-    "id": "audio_lossy",
-    "translation": "Audio - Lossy"
+    "id": "paid_concert",
+    "translation": "Paid - Concert"
   },
   {
-    "id": "literature",
-    "translation": "Literature"
-  },
-  {
-    "id": "literature_english_translated",
-    "translation": "Literature - English-translated"
-  },
-  {
-    "id": "literature_raw",
-    "translation": "Literature - Raw"
-  },
-  {
-    "id": "literature_non_english_translated",
-    "translation": "Literature - Non-English-translated"
-  },
-  {
-    "id": "live_action",
-    "translation": "Live Action"
-  },
-  {
-    "id": "live_action_english_translated",
-    "translation": "Live Action - English-translated"
-  },
-  {
-    "id": "live_action_idol_pv",
-    "translation": "Live Action - Idol/Promotional Video"
-  },
-  {
-    "id": "live_action_non_english_translated",
-    "translation": "Live Action - Non-English-translated"
-  },
-  {
-    "id": "live_action_raw",
-    "translation": "Live Action - Raw"
-  },
-  {
-    "id": "pictures",
-    "translation": "Pictures"
-  },
-  {
-    "id": "pictures_graphics",
-    "translation": "Pictures - Graphics"
-  },
-  {
-    "id": "pictures_photos",
-    "translation": "Pictures - Photos"
-  },
-  {
-    "id": "software",
-    "translation": "Software"
-  },
-  {
-    "id": "software_applications",
-    "translation": "Software - Applications"
-  },
-  {
-    "id": "software_games",
-    "translation": "Software - Games"
-  },
-  {
-    "id": "art",
-    "translation": "Art"
-  },
-  {
-    "id": "art_anime",
-    "translation": "Art - Anime"
-  },
-  {
-    "id": "art_doujinshi",
-    "translation": "Art - Doujinshi"
-  },
-  {
-    "id": "art_games",
-    "translation": "Art - Games"
-  },
-  {
-    "id": "art_manga",
-    "translation": "Art - Manga"
-  },
-  {
-    "id": "art_pictures",
-    "translation": "Art - Pictures"
-  },
-  {
-    "id": "real_life",
-    "translation": "Real Life"
-  },
-  {
-    "id": "real_life_photobooks_and_pictures",
-    "translation": "Real Life - Photobooks and Pictures"
-  },
-  {
-    "id": "real_life_videos",
-    "translation": "Real Life - Videos"
+    "id": "paid_songs",
+    "translation": "Paid - Songs"
   },
   {
     "id": "torrent_description",
