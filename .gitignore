@@ -3,9 +3,9 @@
 *.db
 *.sql
 main
-nyaa
-nyaa.exe
-nyaa-master.exe
+mogupantsu
+mogupantsu.exe
+mogupantsu-master.exe
 *.zip
 *.swp
 .idea
