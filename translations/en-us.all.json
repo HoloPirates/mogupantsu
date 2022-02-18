@@ -16,6 +16,10 @@
     "translation": "Asian related content only (no Western Movies, no Cartoon)"
   },
   {
+    "id": "vtuber_content",
+    "translation": "Vtuber related content only"
+  },
+  {
     "id": "rules_spam",
     "translation": "No spam"
   },
@@ -25,7 +29,7 @@
   },
   {
     "id": "rule_tracker_url",
-    "translation": "<span style='font-weight: bold;'>https://uw0.xyz/</span> is the official announce URL"
+    "translation": "<span style='font-weight: bold;'>udp://tracker.holopirates.moe:1337/announce</span> is the official announce URL"
   },
   {
     "id": "verify_email_title",
