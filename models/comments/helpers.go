@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/NyaaPantsu/nyaa/models"
-	"github.com/NyaaPantsu/nyaa/models/notifications"
-	"github.com/NyaaPantsu/nyaa/utils/publicSettings"
+	"github.com/HoloPirates/mogupantsu/models"
+	"github.com/HoloPirates/mogupantsu/models/notifications"
+	"github.com/HoloPirates/mogupantsu/utils/publicSettings"
 )
 
 // When a new comment is added this is called

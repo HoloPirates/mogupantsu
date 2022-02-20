@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/NyaaPantsu/nyaa/config"
-	"github.com/NyaaPantsu/nyaa/utils/log"
+	"github.com/HoloPirates/mogupantsu/config"
+	"github.com/HoloPirates/mogupantsu/utils/log"
 	"github.com/majestrate/i2p-tools/lib/i2p"
 )
 

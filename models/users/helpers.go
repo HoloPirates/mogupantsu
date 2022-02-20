@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/NyaaPantsu/nyaa/models"
-	"github.com/NyaaPantsu/nyaa/utils/log"
-	"github.com/NyaaPantsu/nyaa/utils/validator/user"
+	"github.com/HoloPirates/mogupantsu/models"
+	"github.com/HoloPirates/mogupantsu/utils/log"
+	"github.com/HoloPirates/mogupantsu/utils/validator/user"
 	"golang.org/x/crypto/bcrypt"
 )
 

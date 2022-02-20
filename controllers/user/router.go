@@ -1,8 +1,8 @@
 package userController
 
-import "github.com/NyaaPantsu/nyaa/controllers/router"
-import "github.com/NyaaPantsu/nyaa/controllers/feed"
-import "github.com/NyaaPantsu/nyaa/controllers/search"
+import "github.com/HoloPirates/mogupantsu/controllers/router"
+import "github.com/HoloPirates/mogupantsu/controllers/feed"
+import "github.com/HoloPirates/mogupantsu/controllers/search"
 
 func init() {
 

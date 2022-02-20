@@ -5,12 +5,12 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/NyaaPantsu/nyaa/models"
-	"github.com/NyaaPantsu/nyaa/utils/crypto"
-	"github.com/NyaaPantsu/nyaa/utils/log"
-	msg "github.com/NyaaPantsu/nyaa/utils/messages"
-	"github.com/NyaaPantsu/nyaa/utils/validator"
-	"github.com/NyaaPantsu/nyaa/utils/validator/user"
+	"github.com/HoloPirates/mogupantsu/models"
+	"github.com/HoloPirates/mogupantsu/utils/crypto"
+	"github.com/HoloPirates/mogupantsu/utils/log"
+	msg "github.com/HoloPirates/mogupantsu/utils/messages"
+	"github.com/HoloPirates/mogupantsu/utils/validator"
+	"github.com/HoloPirates/mogupantsu/utils/validator/user"
 	"github.com/gin-gonic/gin"
 	"golang.org/x/crypto/bcrypt"
 )

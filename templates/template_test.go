@@ -9,22 +9,22 @@ import (
 	"path"
 	"testing"
 
-	"github.com/NyaaPantsu/nyaa/utils/upload"
-	"github.com/NyaaPantsu/nyaa/utils/validator/announcement"
+	"github.com/HoloPirates/mogupantsu/utils/upload"
+	"github.com/HoloPirates/mogupantsu/utils/validator/announcement"
 
 	"strings"
 
 	"time"
 
 	"github.com/CloudyKit/jet"
-	"github.com/NyaaPantsu/nyaa/config"
-	"github.com/NyaaPantsu/nyaa/models"
-	"github.com/NyaaPantsu/nyaa/utils/filelist"
-	"github.com/NyaaPantsu/nyaa/utils/oauth2/client"
-	"github.com/NyaaPantsu/nyaa/utils/publicSettings"
-	"github.com/NyaaPantsu/nyaa/utils/validator/api"
-	"github.com/NyaaPantsu/nyaa/utils/validator/torrent"
-	"github.com/NyaaPantsu/nyaa/utils/validator/user"
+	"github.com/HoloPirates/mogupantsu/config"
+	"github.com/HoloPirates/mogupantsu/models"
+	"github.com/HoloPirates/mogupantsu/utils/filelist"
+	"github.com/HoloPirates/mogupantsu/utils/oauth2/client"
+	"github.com/HoloPirates/mogupantsu/utils/publicSettings"
+	"github.com/HoloPirates/mogupantsu/utils/validator/api"
+	"github.com/HoloPirates/mogupantsu/utils/validator/torrent"
+	"github.com/HoloPirates/mogupantsu/utils/validator/user"
 	"github.com/gin-gonic/gin"
 )
 

@@ -13,10 +13,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/NyaaPantsu/nyaa/config"
-	"github.com/NyaaPantsu/nyaa/models"
-	"github.com/NyaaPantsu/nyaa/utils/cache"
-	"github.com/NyaaPantsu/nyaa/utils/log"
+	"github.com/HoloPirates/mogupantsu/config"
+	"github.com/HoloPirates/mogupantsu/models"
+	"github.com/HoloPirates/mogupantsu/utils/cache"
+	"github.com/HoloPirates/mogupantsu/utils/log"
 )
 
 const (

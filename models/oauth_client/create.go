@@ -3,9 +3,9 @@ package oauth_client
 import (
 	"strings"
 
-	"github.com/NyaaPantsu/nyaa/models"
-	"github.com/NyaaPantsu/nyaa/utils/sanitize"
-	"github.com/NyaaPantsu/nyaa/utils/validator/api"
+	"github.com/HoloPirates/mogupantsu/models"
+	"github.com/HoloPirates/mogupantsu/utils/sanitize"
+	"github.com/HoloPirates/mogupantsu/utils/validator/api"
 )
 
 func Create(form *apiValidator.CreateForm) (*models.OauthClient, error) {

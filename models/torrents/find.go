@@ -10,9 +10,9 @@ import (
 
 	"time"
 
-	"github.com/NyaaPantsu/nyaa/config"
-	"github.com/NyaaPantsu/nyaa/models"
-	"github.com/NyaaPantsu/nyaa/utils/cache"
+	"github.com/HoloPirates/mogupantsu/config"
+	"github.com/HoloPirates/mogupantsu/models"
+	"github.com/HoloPirates/mogupantsu/utils/cache"
 )
 
 // Query : Interface to pass for torrents query

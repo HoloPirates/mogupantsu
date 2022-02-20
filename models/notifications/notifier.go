@@ -1,7 +1,7 @@
 package notifications
 
 import (
-	"github.com/NyaaPantsu/nyaa/models"
+	"github.com/HoloPirates/mogupantsu/models"
 )
 
 // NotifyUser : Notify a user with a notification according to his settings

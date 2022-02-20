@@ -3,8 +3,8 @@ package userValidator
 import (
 	"regexp"
 
-	"github.com/NyaaPantsu/nyaa/utils/log"
-	"github.com/NyaaPantsu/nyaa/utils/validator"
+	"github.com/HoloPirates/mogupantsu/utils/log"
+	"github.com/HoloPirates/mogupantsu/utils/validator"
 )
 
 // Regex by: Philippe Verdy (in a comment somewhere on a website) - Valid every email RFC valid

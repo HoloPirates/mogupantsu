@@ -9,15 +9,15 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/NyaaPantsu/nyaa/models/users"
+	"github.com/HoloPirates/mogupantsu/models/users"
 
 	elastic "gopkg.in/olivere/elastic.v5"
 
-	"github.com/NyaaPantsu/nyaa/config"
-	"github.com/NyaaPantsu/nyaa/models"
-	"github.com/NyaaPantsu/nyaa/models/torrents"
-	"github.com/NyaaPantsu/nyaa/utils/log"
-	"github.com/NyaaPantsu/nyaa/utils/publicSettings"
+	"github.com/HoloPirates/mogupantsu/config"
+	"github.com/HoloPirates/mogupantsu/models"
+	"github.com/HoloPirates/mogupantsu/models/torrents"
+	"github.com/HoloPirates/mogupantsu/utils/log"
+	"github.com/HoloPirates/mogupantsu/utils/publicSettings"
 	"github.com/gin-gonic/gin"
 )
 

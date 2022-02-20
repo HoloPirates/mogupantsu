@@ -5,10 +5,10 @@ import (
 	"path"
 	"testing"
 
-	"github.com/NyaaPantsu/nyaa/config"
-	"github.com/NyaaPantsu/nyaa/models"
-	msg "github.com/NyaaPantsu/nyaa/utils/messages"
-	"github.com/NyaaPantsu/nyaa/utils/validator"
+	"github.com/HoloPirates/mogupantsu/config"
+	"github.com/HoloPirates/mogupantsu/models"
+	msg "github.com/HoloPirates/mogupantsu/utils/messages"
+	"github.com/HoloPirates/mogupantsu/utils/validator"
 	"github.com/gin-gonic/gin"
 )
 

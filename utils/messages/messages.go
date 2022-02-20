@@ -4,9 +4,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/NyaaPantsu/nyaa/models/notifications"
-	"github.com/NyaaPantsu/nyaa/utils/publicSettings"
-	"github.com/NyaaPantsu/nyaa/utils/sanitize"
+	"github.com/HoloPirates/mogupantsu/models/notifications"
+	"github.com/HoloPirates/mogupantsu/utils/publicSettings"
+	"github.com/HoloPirates/mogupantsu/utils/sanitize"
 	"github.com/gin-gonic/gin"
 	"github.com/nicksnyder/go-i18n/i18n"
 )

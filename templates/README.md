@@ -6,7 +6,7 @@ For all syntaxic question, it is recommanded to look into Jet Template documenta
 You can, pretty much, name your files however you want. But, to keep some homogenuity, it would be preferable to keep the name in lowercase, you can use underscores and you have to use the suffix ".jet.html"
 
 ## Global Variables
-In every template file, besides the built-in functions from Jet Template, you have also some Nyaa Global Variables that you can access to. Those variables are set in `template.go` in CommonVariable function. If you want to add a global variable, it is [there](https://github.com/NyaaPantsu/nyaa/blob/dev/templates/template.go#L58). Be aware to set only important variables here, not page specific one.
+In every template file, besides the built-in functions from Jet Template, you have also some Nyaa Global Variables that you can access to. Those variables are set in `template.go` in CommonVariable function. If you want to add a global variable, it is [there](https://github.com/HoloPirates/mogupantsu/blob/dev/templates/template.go#L58). Be aware to set only important variables here, not page specific one.
 ### What do they do?
 Here we will try to look into each variable and explain how do they work.
 * `Config` variable is the website configuration set in config/config.yml. You can access every exported Properties and functions from `config/struct.go`. For example, Config.Torrents.Tags.Default return the default tag type and Config.Port return the running port.    
@@ -24,7 +24,7 @@ Here we will try to look into each variable and explain how do they work.
 Pretty simple, just type: `{{ NameOfVariable }}`. For example, {{ URL.String() }} to get the current URL.
 
 ## Global Functions
-Same as global variables, there are also global functions. They are all defined [here](https://github.com/NyaaPantsu/nyaa/blob/dev/templates/template_functions.go#L24).
+Same as global variables, there are also global functions. They are all defined [here](https://github.com/HoloPirates/mogupantsu/blob/dev/templates/template_functions.go#L24).
 * `contains(language, string)` tells you if a language corresponds to the language code provided
 * `genActivityContent(activity, T function)` returns the translated activty.
 * `genUploaderLink(uploaderID, uploaderName, hidden)` return a `<a href="">Username</a>` for the user provided based on the elements provided. For example, if you provide a username and no userID or a hidden bool to true. Then it won't return a link but will return "renchon" username.

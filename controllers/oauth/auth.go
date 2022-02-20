@@ -3,14 +3,14 @@ package oauth
 import (
 	"net/http"
 
-	"github.com/NyaaPantsu/nyaa/controllers/router"
-	"github.com/NyaaPantsu/nyaa/templates"
-	"github.com/NyaaPantsu/nyaa/utils/cookies"
-	"github.com/NyaaPantsu/nyaa/utils/log"
-	msg "github.com/NyaaPantsu/nyaa/utils/messages"
-	"github.com/NyaaPantsu/nyaa/utils/oauth2"
-	"github.com/NyaaPantsu/nyaa/utils/validator"
-	"github.com/NyaaPantsu/nyaa/utils/validator/user"
+	"github.com/HoloPirates/mogupantsu/controllers/router"
+	"github.com/HoloPirates/mogupantsu/templates"
+	"github.com/HoloPirates/mogupantsu/utils/cookies"
+	"github.com/HoloPirates/mogupantsu/utils/log"
+	msg "github.com/HoloPirates/mogupantsu/utils/messages"
+	"github.com/HoloPirates/mogupantsu/utils/oauth2"
+	"github.com/HoloPirates/mogupantsu/utils/validator"
+	"github.com/HoloPirates/mogupantsu/utils/validator/user"
 	"github.com/gin-gonic/gin"
 	"github.com/ory/fosite"
 )

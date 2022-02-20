@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/NyaaPantsu/nyaa/models"
-	"github.com/NyaaPantsu/nyaa/models/reports"
-	"github.com/NyaaPantsu/nyaa/templates"
-	"github.com/NyaaPantsu/nyaa/utils/log"
+	"github.com/HoloPirates/mogupantsu/models"
+	"github.com/HoloPirates/mogupantsu/models/reports"
+	"github.com/HoloPirates/mogupantsu/templates"
+	"github.com/HoloPirates/mogupantsu/utils/log"
 	"github.com/gin-gonic/gin"
 )
 

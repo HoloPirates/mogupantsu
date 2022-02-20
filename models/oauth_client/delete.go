@@ -1,7 +1,7 @@
 package oauth_client
 
 import (
-	"github.com/NyaaPantsu/nyaa/models"
+	"github.com/HoloPirates/mogupantsu/models"
 	"github.com/pkg/errors"
 )
 

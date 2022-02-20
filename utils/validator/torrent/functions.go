@@ -11,12 +11,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/NyaaPantsu/nyaa/config"
-	"github.com/NyaaPantsu/nyaa/utils/categories"
-	"github.com/NyaaPantsu/nyaa/utils/cookies"
-	msg "github.com/NyaaPantsu/nyaa/utils/messages"
-	"github.com/NyaaPantsu/nyaa/utils/torrentLanguages"
-	"github.com/NyaaPantsu/nyaa/utils/validator/tag"
+	"github.com/HoloPirates/mogupantsu/config"
+	"github.com/HoloPirates/mogupantsu/utils/categories"
+	"github.com/HoloPirates/mogupantsu/utils/cookies"
+	msg "github.com/HoloPirates/mogupantsu/utils/messages"
+	"github.com/HoloPirates/mogupantsu/utils/torrentLanguages"
+	"github.com/HoloPirates/mogupantsu/utils/validator/tag"
 	"github.com/anacrolix/torrent/metainfo"
 	"github.com/gin-gonic/gin"
 )

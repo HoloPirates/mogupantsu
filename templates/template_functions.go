@@ -14,14 +14,14 @@ import (
 	"strings"
 
 	"github.com/CloudyKit/jet"
-	"github.com/NyaaPantsu/nyaa/config"
-	"github.com/NyaaPantsu/nyaa/models"
-	"github.com/NyaaPantsu/nyaa/models/torrents"
-	"github.com/NyaaPantsu/nyaa/utils/categories"
-	"github.com/NyaaPantsu/nyaa/utils/filelist"
-	"github.com/NyaaPantsu/nyaa/utils/format"
-	"github.com/NyaaPantsu/nyaa/utils/publicSettings"
-	"github.com/NyaaPantsu/nyaa/utils/torrentLanguages"
+	"github.com/HoloPirates/mogupantsu/config"
+	"github.com/HoloPirates/mogupantsu/models"
+	"github.com/HoloPirates/mogupantsu/models/torrents"
+	"github.com/HoloPirates/mogupantsu/utils/categories"
+	"github.com/HoloPirates/mogupantsu/utils/filelist"
+	"github.com/HoloPirates/mogupantsu/utils/format"
+	"github.com/HoloPirates/mogupantsu/utils/publicSettings"
+	"github.com/HoloPirates/mogupantsu/utils/torrentLanguages"
 )
 
 // FuncMap : Functions accessible in templates by {{ $.Function }}

@@ -6,7 +6,7 @@ import (
 	"path"
 	"testing"
 
-	"github.com/NyaaPantsu/nyaa/config"
+	"github.com/HoloPirates/mogupantsu/config"
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/assert"
 )

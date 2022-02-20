@@ -5,9 +5,9 @@ import (
 	"net/url"
 	"strings"
 
-	msg "github.com/NyaaPantsu/nyaa/utils/messages"
+	msg "github.com/HoloPirates/mogupantsu/utils/messages"
 
-	"github.com/NyaaPantsu/nyaa/templates"
+	"github.com/HoloPirates/mogupantsu/templates"
 	"github.com/gin-gonic/gin"
 	"github.com/ory/fosite"
 	"github.com/parnurzeal/gorequest"

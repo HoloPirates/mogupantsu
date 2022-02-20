@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/NyaaPantsu/nyaa/models/users"
-	"github.com/NyaaPantsu/nyaa/templates"
-	"github.com/NyaaPantsu/nyaa/utils/log"
+	"github.com/HoloPirates/mogupantsu/models/users"
+	"github.com/HoloPirates/mogupantsu/templates"
+	"github.com/HoloPirates/mogupantsu/utils/log"
 	"github.com/gin-gonic/gin"
 )
 

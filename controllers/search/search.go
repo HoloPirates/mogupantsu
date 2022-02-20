@@ -9,11 +9,11 @@ import (
 
 	"math"
 
-	"github.com/NyaaPantsu/nyaa/controllers/router"
-	"github.com/NyaaPantsu/nyaa/models"
-	"github.com/NyaaPantsu/nyaa/templates"
-	"github.com/NyaaPantsu/nyaa/models/torrents"
-	"github.com/NyaaPantsu/nyaa/utils/search"
+	"github.com/HoloPirates/mogupantsu/controllers/router"
+	"github.com/HoloPirates/mogupantsu/models"
+	"github.com/HoloPirates/mogupantsu/templates"
+	"github.com/HoloPirates/mogupantsu/models/torrents"
+	"github.com/HoloPirates/mogupantsu/utils/search"
 	"github.com/gin-gonic/gin"
 	"github.com/pkg/errors"
 )

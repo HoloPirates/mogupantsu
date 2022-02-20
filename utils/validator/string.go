@@ -1,7 +1,7 @@
 package validator
 
 import (
-	"github.com/NyaaPantsu/nyaa/utils/messages"
+	"github.com/HoloPirates/mogupantsu/utils/messages"
 	"github.com/go-playground/validator"
 )
 

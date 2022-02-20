@@ -5,7 +5,7 @@ import (
 	"path"
 	"testing"
 
-	"github.com/NyaaPantsu/nyaa/config"
+	"github.com/HoloPirates/mogupantsu/config"
 	"github.com/jinzhu/gorm"
 )
 
@@ -63,7 +63,7 @@ func TestGormInitSqlite(t *testing.T) {
 // - psql -c "CREATE USER nyaapantsu WITH PASSWORD 'nyaapantsu';" -U postgres
 //
 // Then enable the test by setting this variable to "true" via ldflags:
-// go test ./... -v -ldflags="-X github.com/NyaaPantsu/nyaa/db.testPostgres=true"
+// go test ./... -v -ldflags="-X github.com/HoloPirates/mogupantsu/db.testPostgres=true"
 var testPostgres = "false"
 
 func TestGormInitPostgres(t *testing.T) {

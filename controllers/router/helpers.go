@@ -1,8 +1,8 @@
 package router
 
 import (
-	"github.com/NyaaPantsu/nyaa/models"
-	"github.com/NyaaPantsu/nyaa/utils/cookies"
+	"github.com/HoloPirates/mogupantsu/models"
+	"github.com/HoloPirates/mogupantsu/utils/cookies"
 	"github.com/gin-gonic/gin"
 )
 

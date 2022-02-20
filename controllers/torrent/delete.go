@@ -4,12 +4,12 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/NyaaPantsu/nyaa/controllers/router"
-	"github.com/NyaaPantsu/nyaa/models"
-	"github.com/NyaaPantsu/nyaa/models/activities"
-	"github.com/NyaaPantsu/nyaa/models/reports"
-	"github.com/NyaaPantsu/nyaa/models/torrents"
-	"github.com/NyaaPantsu/nyaa/utils/search"
+	"github.com/HoloPirates/mogupantsu/controllers/router"
+	"github.com/HoloPirates/mogupantsu/models"
+	"github.com/HoloPirates/mogupantsu/models/activities"
+	"github.com/HoloPirates/mogupantsu/models/reports"
+	"github.com/HoloPirates/mogupantsu/models/torrents"
+	"github.com/HoloPirates/mogupantsu/utils/search"
 	"github.com/gin-gonic/gin"
 )
 

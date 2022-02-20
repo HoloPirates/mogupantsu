@@ -1,8 +1,8 @@
 package torrentController
 
 import (
-	"github.com/NyaaPantsu/nyaa/controllers/middlewares"
-	"github.com/NyaaPantsu/nyaa/controllers/router"
+	"github.com/HoloPirates/mogupantsu/controllers/middlewares"
+	"github.com/HoloPirates/mogupantsu/controllers/router"
 )
 
 func init() {

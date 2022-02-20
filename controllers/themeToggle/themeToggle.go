@@ -3,11 +3,11 @@ package themeToggleController
 import (
 	"net/http"
 
-	"github.com/NyaaPantsu/nyaa/config"
-	"github.com/NyaaPantsu/nyaa/controllers/router"
-	"github.com/NyaaPantsu/nyaa/utils/timeHelper"
+	"github.com/HoloPirates/mogupantsu/config"
+	"github.com/HoloPirates/mogupantsu/controllers/router"
+	"github.com/HoloPirates/mogupantsu/utils/timeHelper"
 	"github.com/gin-gonic/gin"
-	"github.com/NyaaPantsu/nyaa/utils/publicSettings"
+	"github.com/HoloPirates/mogupantsu/utils/publicSettings"
 	
 )
 

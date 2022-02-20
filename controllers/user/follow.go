@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/NyaaPantsu/nyaa/controllers/router"
-	"github.com/NyaaPantsu/nyaa/models/users"
+	"github.com/HoloPirates/mogupantsu/controllers/router"
+	"github.com/HoloPirates/mogupantsu/models/users"
 	"github.com/gin-gonic/gin"
 )
 

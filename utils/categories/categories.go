@@ -3,7 +3,7 @@ package categories
 import (
 	"sort"
 
-	"github.com/NyaaPantsu/nyaa/config"
+	"github.com/HoloPirates/mogupantsu/config"
 )
 
 // Category is a struct defining a category

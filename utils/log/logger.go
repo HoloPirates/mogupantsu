@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/NyaaPantsu/nyaa/config"
+	"github.com/HoloPirates/mogupantsu/config"
 	"github.com/Sirupsen/logrus"
 	lumberjack "gopkg.in/natefinch/lumberjack.v2"
 )

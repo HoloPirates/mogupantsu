@@ -4,15 +4,15 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/NyaaPantsu/nyaa/utils/validator/tag"
+	"github.com/HoloPirates/mogupantsu/utils/validator/tag"
 
-	"github.com/NyaaPantsu/nyaa/models/tag"
+	"github.com/HoloPirates/mogupantsu/models/tag"
 
-	"github.com/NyaaPantsu/nyaa/config"
-	"github.com/NyaaPantsu/nyaa/models"
-	"github.com/NyaaPantsu/nyaa/utils/sanitize"
-	"github.com/NyaaPantsu/nyaa/utils/search"
-	"github.com/NyaaPantsu/nyaa/utils/validator/torrent"
+	"github.com/HoloPirates/mogupantsu/config"
+	"github.com/HoloPirates/mogupantsu/models"
+	"github.com/HoloPirates/mogupantsu/utils/sanitize"
+	"github.com/HoloPirates/mogupantsu/utils/search"
+	"github.com/HoloPirates/mogupantsu/utils/validator/torrent"
 	"github.com/gin-gonic/gin"
 )
 

@@ -5,10 +5,10 @@ import (
 	"crypto/rsa"
 	"time"
 
-	"github.com/NyaaPantsu/nyaa/utils/oauth2/storage"
+	"github.com/HoloPirates/mogupantsu/utils/oauth2/storage"
 
-	"github.com/NyaaPantsu/nyaa/config"
-	"github.com/NyaaPantsu/nyaa/utils/oauth2/manager"
+	"github.com/HoloPirates/mogupantsu/config"
+	"github.com/HoloPirates/mogupantsu/utils/oauth2/manager"
 	"github.com/ory/fosite"
 	"github.com/ory/fosite/compose"
 	"github.com/ory/fosite/handler/openid"

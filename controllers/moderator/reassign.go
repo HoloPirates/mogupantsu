@@ -1,11 +1,11 @@
 package moderatorController
 
 import (
-	"github.com/NyaaPantsu/nyaa/models/torrents"
-	"github.com/NyaaPantsu/nyaa/models/users"
-	"github.com/NyaaPantsu/nyaa/templates"
-	msg "github.com/NyaaPantsu/nyaa/utils/messages"
-	"github.com/NyaaPantsu/nyaa/utils/validator/torrent"
+	"github.com/HoloPirates/mogupantsu/models/torrents"
+	"github.com/HoloPirates/mogupantsu/models/users"
+	"github.com/HoloPirates/mogupantsu/templates"
+	msg "github.com/HoloPirates/mogupantsu/utils/messages"
+	"github.com/HoloPirates/mogupantsu/utils/validator/torrent"
 	"github.com/gin-gonic/gin"
 )
 

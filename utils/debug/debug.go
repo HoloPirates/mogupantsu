@@ -3,7 +3,7 @@ package debug
 import (
 	"runtime"
 
-	"github.com/NyaaPantsu/nyaa/utils/log"
+	"github.com/HoloPirates/mogupantsu/utils/log"
 )
 
 func LogCaller(parent int) {

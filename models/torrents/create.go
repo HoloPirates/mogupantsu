@@ -3,12 +3,12 @@ package torrents
 import (
 	"time"
 
-	"github.com/NyaaPantsu/nyaa/models/tag"
+	"github.com/HoloPirates/mogupantsu/models/tag"
 
-	"github.com/NyaaPantsu/nyaa/config"
-	"github.com/NyaaPantsu/nyaa/models"
-	"github.com/NyaaPantsu/nyaa/utils/log"
-	"github.com/NyaaPantsu/nyaa/utils/validator/torrent"
+	"github.com/HoloPirates/mogupantsu/config"
+	"github.com/HoloPirates/mogupantsu/models"
+	"github.com/HoloPirates/mogupantsu/utils/log"
+	"github.com/HoloPirates/mogupantsu/utils/validator/torrent"
 )
 
 // Create a new torrent based on the uploadform request struct

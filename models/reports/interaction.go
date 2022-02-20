@@ -8,7 +8,7 @@ import (
 
 	elastic "gopkg.in/olivere/elastic.v5"
 
-	"github.com/NyaaPantsu/nyaa/models"
+	"github.com/HoloPirates/mogupantsu/models"
 )
 
 // Query : Interface to pass for torrents query

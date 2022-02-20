@@ -5,8 +5,8 @@ import (
 	"net/http"
 
 	"github.com/jinzhu/gorm"
-	"github.com/NyaaPantsu/nyaa/models"
-	"github.com/NyaaPantsu/nyaa/utils/log"
+	"github.com/HoloPirates/mogupantsu/models"
+	"github.com/HoloPirates/mogupantsu/utils/log"
 )
 
 // FindOrCreateUser creates a user.

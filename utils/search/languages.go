@@ -3,7 +3,7 @@ package search
 import (
 	"strings"
 
-	"github.com/NyaaPantsu/nyaa/utils/publicSettings"
+	"github.com/HoloPirates/mogupantsu/utils/publicSettings"
 )
 
 // ParseLanguages sets languages by string

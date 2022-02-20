@@ -4,7 +4,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/NyaaPantsu/nyaa/config"
+	"github.com/HoloPirates/mogupantsu/config"
 	"gopkg.in/olivere/elastic.v5"
 )
 

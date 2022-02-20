@@ -1,7 +1,7 @@
 package tags
 
 import (
-	"github.com/NyaaPantsu/nyaa/models"
+	"github.com/HoloPirates/mogupantsu/models"
 	"github.com/pkg/errors"
 )
 

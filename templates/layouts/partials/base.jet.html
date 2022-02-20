@@ -50,7 +50,7 @@
     <div class="content container center">
       {{ yield infos()}}
       {{ yield errors()}}
-      {{ if !isset(Infos["system"])}}<div class="centered">{{ yield ad_wide(Type=AdType) }}</div>{{end}}
+      <!-- {{ if !isset(Infos["system"])}}<div class="centered">{{ yield ad_wide(Type=AdType) }}</div>{{end}} -->
       {{ block content_body_base() }}{{end}}
     </div>
     {{ block mascot() }}
@@ -86,13 +86,13 @@
     </div>
     {{end}}
     {{ if !EUCookieLaw }}<div id="cookie-warning"><span id="cookie-warning-close" class="close">×</span>{{ T("cookie_warning")|raw }}</div>{{ end }}
-    <div class="centered">{{ yield ad_wide(Type=AdType) }}</div>
+    <!-- <div class="centered">{{ yield ad_wide(Type=AdType) }}</div> -->
     <footer id="footer">
       <div class="container footer center">
         <div class="footer-opt">
           <p><a href="/settings">{{ T("change_settings") }}</a><a id="dark-toggle" href="/dark{{ URL.String()}}"> - Toggle Dark Mode</a></p>
         </div>
-        <span><i>Powered by <a href="#">Nyaa Pantsu</a> v{{ Config.Version }} - commit <a id="commit" href="https://github.com/NyaaPantsu/nyaa/commit/{{ Config.Build }}">{{ Config.Build }}</a></i></span>
+        <span><i>Powered by <a href="#">Nyaa Pantsu</a> v{{ Config.Version }} - commit <a id="commit" href="https://github.com/HoloPirates/mogupantsu/commit/{{ Config.Build }}">{{ Config.Build }}</a></i></span>
       </div>
     </footer>
   </div>

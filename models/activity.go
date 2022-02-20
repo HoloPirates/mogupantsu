@@ -4,7 +4,7 @@ import (
 	"html/template"
 	"strings"
 
-	"github.com/NyaaPantsu/nyaa/config"
+	"github.com/HoloPirates/mogupantsu/config"
 )
 
 // Activity model

@@ -1,7 +1,7 @@
 package torrentValidator
 
 import (
-	"github.com/NyaaPantsu/nyaa/utils/validator/tag"
+	"github.com/HoloPirates/mogupantsu/utils/validator/tag"
 )
 
 // TorrentRequest struct

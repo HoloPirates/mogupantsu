@@ -3,8 +3,8 @@ package upload
 import (
 	"fmt"
 
-	"github.com/NyaaPantsu/nyaa/config"
-	"github.com/NyaaPantsu/nyaa/models"
+	"github.com/HoloPirates/mogupantsu/config"
+	"github.com/HoloPirates/mogupantsu/models"
 )
 
 // Convert automatically our sukebei cats to platform specified Hentai cats

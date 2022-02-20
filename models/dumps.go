@@ -4,7 +4,7 @@ import (
 	"html/template"
 	"time"
 
-	"github.com/NyaaPantsu/nyaa/utils/format"
+	"github.com/HoloPirates/mogupantsu/utils/format"
 )
 
 // DatabaseDump model

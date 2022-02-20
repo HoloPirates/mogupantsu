@@ -1,7 +1,7 @@
 package pprofController
 
-import "github.com/NyaaPantsu/nyaa/controllers/router"
-import "github.com/NyaaPantsu/nyaa/controllers/middlewares"
+import "github.com/HoloPirates/mogupantsu/controllers/router"
+import "github.com/HoloPirates/mogupantsu/controllers/middlewares"
 
 func init() {
 	// Adding pprof support

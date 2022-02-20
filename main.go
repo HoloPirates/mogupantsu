@@ -9,15 +9,15 @@ import (
 	"os"
 	"time"
 
-	"github.com/NyaaPantsu/nyaa/config"
-	"github.com/NyaaPantsu/nyaa/controllers"
-	"github.com/NyaaPantsu/nyaa/controllers/databasedumps"
-	"github.com/NyaaPantsu/nyaa/models"
-	"github.com/NyaaPantsu/nyaa/utils/cookies"
-	"github.com/NyaaPantsu/nyaa/utils/log"
-	"github.com/NyaaPantsu/nyaa/utils/publicSettings"
-	"github.com/NyaaPantsu/nyaa/utils/search"
-	"github.com/NyaaPantsu/nyaa/utils/signals"
+	"github.com/HoloPirates/mogupantsu/config"
+	"github.com/HoloPirates/mogupantsu/controllers"
+	"github.com/HoloPirates/mogupantsu/controllers/databasedumps"
+	"github.com/HoloPirates/mogupantsu/models"
+	"github.com/HoloPirates/mogupantsu/utils/cookies"
+	"github.com/HoloPirates/mogupantsu/utils/log"
+	"github.com/HoloPirates/mogupantsu/utils/publicSettings"
+	"github.com/HoloPirates/mogupantsu/utils/search"
+	"github.com/HoloPirates/mogupantsu/utils/signals"
 )
 
 var buildversion string

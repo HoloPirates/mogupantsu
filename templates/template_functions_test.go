@@ -11,10 +11,10 @@ import (
 
 	"reflect"
 
-	"github.com/NyaaPantsu/nyaa/config"
-	"github.com/NyaaPantsu/nyaa/models"
-	"github.com/NyaaPantsu/nyaa/utils/categories"
-	"github.com/NyaaPantsu/nyaa/utils/publicSettings"
+	"github.com/HoloPirates/mogupantsu/config"
+	"github.com/HoloPirates/mogupantsu/models"
+	"github.com/HoloPirates/mogupantsu/utils/categories"
+	"github.com/HoloPirates/mogupantsu/utils/publicSettings"
 )
 
 // run before router/init.go:init()
