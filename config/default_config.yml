@@ -270,7 +270,7 @@ models:
   scrape_table_name: scrape
 #Default themes
 default_theme:
-  theme: g
+  theme: okayu
   dark: tomorrow
   forced:
   #Put a theme name in forced to force it for everyone
